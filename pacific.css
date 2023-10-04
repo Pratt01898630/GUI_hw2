@@ -1,0 +1,119 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/* Main area 80%, minimum 600px, centered */
+body {
+	width: 80%;
+	padding: 20px;
+  	margin: auto;
+	min-width: 600px;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('ptrbackground.jpg');
+}
+
+/* Header contains website title and image */
+header {
+    background:#010032 url('sunset.jpg') right no-repeat;
+	background-size: contain;
+    color: #fff;
+    padding: 1px;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, "Times New Roman", serif;
+	
+}
+
+/* Wrapper background colors */
+#wrapper {
+	background: linear-gradient(
+    to right,
+    rgb(150, 210, 255) 0px,
+    rgb(150, 210, 255) 200px,
+    rgb(255, 255, 255) 200px,
+    rgb(255, 255, 255) 600px
+  );
+}
+
+/* Navigation text*/
+nav ul {
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left;
+	margin-top: 5px;
+	padding: 25px;
+}
+
+nav a:visited {
+	color: #0a2d79;
+}
+
+nav a:hover {
+	background-color: #8ed4eb;
+}
+
+/* Makes the navigation links have no bullet points */
+nav li { 
+	list-style: none; 
+}
+
+/* Color of nav links */
+nav a:link {
+	color: #0a2d79;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Used content id tag to add some space */
+#content {
+    margin-left: 215px; 
+	padding: 15px;
+}
+
+/* Float the image to the left */
+#content img {
+    float: left; 
+    margin-right: 25px; 
+}
+
+/* .gif file is used instead of bullet points */
+ul {
+	list-style-image: url("marker.gif");
+	padding-left: 40px;
+	list-style-position: inside;
+}
+
+/* Special color for resort name */
+.resort {
+	font-weight: bold;
+    color: #0aaae9; 
+}
+
+#contact {
+	font-size: 100%;
+}
+
+dt {
+	color: #000033;
+}
+
+/* footer font, italicized */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: .8em;
+	margin-left: 200px;
+    padding: 20px;
+}
+
